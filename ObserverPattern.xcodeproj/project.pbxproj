@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		087EF69E2102FF1A006ABA3B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF69D2102FF1A006ABA3B /* main.swift */; };
+		087EF6A62103019D006ABA3B /* IObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF6A52103019D006ABA3B /* IObservable.swift */; };
+		087EF6A9210301EE006ABA3B /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF6A8210301EE006ABA3B /* IObserver.swift */; };
+		087EF6AB21030270006ABA3B /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF6AA21030270006ABA3B /* weather.swift */; };
+		087EF6AD210304B0006ABA3B /* cellPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF6AC210304B0006ABA3B /* cellPhone.swift */; };
+		087EF6AF210306A0006ABA3B /* smartWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087EF6AE210306A0006ABA3B /* smartWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		087EF69A2102FF1A006ABA3B /* ObserverPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObserverPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		087EF69D2102FF1A006ABA3B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		087EF6A52103019D006ABA3B /* IObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObservable.swift; sourceTree = "<group>"; };
+		087EF6A8210301EE006ABA3B /* IObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
+		087EF6AA21030270006ABA3B /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		087EF6AC210304B0006ABA3B /* cellPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellPhone.swift; sourceTree = "<group>"; };
+		087EF6AE210306A0006ABA3B /* smartWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		087EF69C2102FF1A006ABA3B /* ObserverPattern */ = {
 			isa = PBXGroup;
 			children = (
+				087EF6A7210301CD006ABA3B /* Observer */,
+				087EF6A421030174006ABA3B /* Observable */,
 				087EF69D2102FF1A006ABA3B /* main.swift */,
 			);
 			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+		087EF6A421030174006ABA3B /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				087EF6A52103019D006ABA3B /* IObservable.swift */,
+				087EF6AA21030270006ABA3B /* weather.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		087EF6A7210301CD006ABA3B /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				087EF6A8210301EE006ABA3B /* IObserver.swift */,
+				087EF6AC210304B0006ABA3B /* cellPhone.swift */,
+				087EF6AE210306A0006ABA3B /* smartWindow.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087EF6AB21030270006ABA3B /* weather.swift in Sources */,
+				087EF6A9210301EE006ABA3B /* IObserver.swift in Sources */,
+				087EF6AD210304B0006ABA3B /* cellPhone.swift in Sources */,
+				087EF6AF210306A0006ABA3B /* smartWindow.swift in Sources */,
+				087EF6A62103019D006ABA3B /* IObservable.swift in Sources */,
 				087EF69E2102FF1A006ABA3B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

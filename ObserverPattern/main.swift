@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let station = weather()
+let phoneDisplay = cellPhone(w: station, id: 0)
+station.add(o: phoneDisplay)
+let windowDisplay = smartWindow(w: station, id: 1)
+station.add(o: windowDisplay)
+station.degree = 10
+station.notify()
